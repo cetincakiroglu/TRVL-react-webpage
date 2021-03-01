@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    background-color: #fff;
+    overflow-x:hidden;
+
+}
+
+/* nav */
+#nav {
+    border-bottom: 1px solid #DDDD;
+}
+
+.nav-link,
+a,
+#logo {
+    color: #333333;
+}
+
+#logo {
+    font-size: 24px !important;
+}
+
+.nav-link,
+a {
+    font-size: 14px;
+}
+
+/*text*/
+#hero_text{
+  letter-spacing:3rem;
+  position: absolute;
+  top:30%;
+  color:#eeee;
+  font-size:120px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+}
+span {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 49px;
+}
+
+#hero-text>p {
+    line-height: 28px;
+    font-size: 16px;
+}
+
+p {
+    color: #8C8C8C !important;
+}
+
+
+/* buttons */
+.btn,
+.blue {
+    font-size: 12px;
+    line-height: 12.3px;
+    border: 1px solid #0433ac;
+    padding: 10px 16px;
+}
+.btn:focus{
+    box-shadow:none;
+}
+
+.blue {
+    background-color: #0433ac;
+    color: #fff !important;
+}
+
+.btn:hover,
+.pricing:hover {
+    background-color: #61C300;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#link_btn:hover>a {
+    color: #fff;
+}
+a{
+    text-decoration:none !important;
+}
+
+/*absolute items */
+#bg-img {
+    z-index: -1;
+    left: 200px;
+    bottom: 1px;
+    transform: rotateX(30deg);
+}
+
+/*firefox*/
+#bg-img {
+    z-index: -1;
+    left: 200px;
+    bottom: 1px;
+    -webkit-transform: rotateX(30deg);
+    transform: rotateX(30deg);
+}
+
+
+/*pricing cards*/
+.options {
+    background-color: #fff;
+    height: 800px !important;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.582);
+    transition: .2s ease;
+}
+
+.options:hover {
+    transform: translateY(-30px);
+    cursor: pointer;
+
+}
+
+#pricing>h2 {
+    font-size: 48px;
+}
+
+.pricing {
+    padding: 15px 40px !important;
+    font-size: 16px !important;
+    outline: none !important;
+    transition: .2s ease-in;
+    border: none;
+
+}
+
+
+/* footer */
+#footer_img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+.footer_social:hover {
+    cursor: pointer;
+    color: #0433ac;
+}
+
+a {
+    color: #000;
+}
+
+.footer {
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+ #hero_text{
+   font-size:72px;
+ }
+}
